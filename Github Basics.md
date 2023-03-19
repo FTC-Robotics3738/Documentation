@@ -27,4 +27,17 @@
 - Push
   - A push occurs when you have at least 1 `commit` ready and it will send it to the branch you are on (assuming you have permissions to push to it!)
   - Assuming I set things up correctly, you should not be able to push to `Main` branches, but you can push to your own branches
+- Git vs Github
+  - Git is an application that lets you have source control and repos and such. 
+  - Github is an implementation of Git
 ---
+
+## Getting Started
+### Account Creation
+- This is just like any other website sign up, if you do not have an account yet, [click here](https://github.com/signup?ref_cta=Sign+up) and it will take you to the sign up page. I recommend using your personal email so you can show your origins in the future
+
+### Environment Setup
+- There many tools to use Git, you can use a GUI application or the terminal, if this is your first time using Git software, I recommend starting with a GUI tool as it will help you along and you will not need to memorize commands. 
+- To start, you can install [this git tool](https://git-scm.com/downloads), it comes with both the terminal client and a GUI.
+  - Check the guide on how to setup Git
+- Additionally, you will want to download [Visual Studio Code](https://code.visualstudio.com/download) (VSC) as this will be where you write code. We will set this up in a little bit
