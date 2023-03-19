@@ -11,7 +11,7 @@
   - There is also `Main`/`Master` branch which should have only fully working code
   - When you want to make a change to `Main` you `checkout` a new branch from it, make all your changes to that, then make a `Pull Request` (Also known as `Merge Request`) to have people review your changes
 - Pull Request
-  - When your changes are complete and you have tested it and are ready to add it to `Main` you create a `Pull Request` (`PR`).
+  - When your changes are complete and tested, and it is ready to be added to `Main` you create a `Pull Request` (`PR`).
   - Sometimes called `Merge Request` (`MR`)
   - With most repos on this org, it will be set so 2 people have to approve your PRs for you to have the ability to merge it to master
   - A pull request is based off a `Branch`, so if you make a PR, you can still add stuff to your branch and `push` it up without having to make a new PR
@@ -23,7 +23,8 @@
   - Remote, also called `Origin`, is what Github has online that everyone can see
 - Commit
   - You can think of a commit like a package that holds all changes you add to it when you are ready
-  - You have to add a message to a commit to finalize it
+  - You have to add a message to a commit to finalize it that a 72 character maximum summary of the change
+    - Try to be descriptive with few words, things like `Quick Fix` doesn't tell people much, but something like `Corrected Left Turn Method` tells a lot more
 - Push
   - A push occurs when you have at least 1 `commit` ready and it will send it to the branch you are on (assuming you have permissions to push to it!)
   - Assuming I set things up correctly, you should not be able to push to `Main` branches, but you can push to your own branches
